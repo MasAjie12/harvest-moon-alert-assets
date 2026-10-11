@@ -2,8 +2,8 @@
 .hm-card{box-sizing:border-box;position:relative;width:680px;max-width:100%;height:230px;margin:0 auto;overflow:hidden;border:5px solid #80552f;border-radius:24px;background:#f9e7ae;font-family:'Baloo 2',sans-serif;text-align:center;box-shadow:0 12px 30px rgba(48,27,10,.55);animation:hm-in .8s cubic-bezier(.2,.9,.3,1.15) both,hm-breathe 5s ease-in-out 1s infinite}
 .hm-bg{position:absolute;z-index:0;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.12) brightness(.52);animation:hm-zoom 18s ease-in-out infinite alternate}
 .hm-veil{position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(39,24,12,.84),rgba(61,41,28,.3) 50%,rgba(39,24,12,.84));animation:hm-veil 7s ease-in-out infinite alternate}
-.hm-token-stack{position:absolute;z-index:4;top:115px;left:50%;width:100%;transform:translateX(-50%);text-align:center}
-.hm-panel-amount{position:relative;z-index:4;margin:0 auto;width:fit-content;min-width:210px;padding:4px 16px;border:3px solid #b47a3c;border-radius:16px;background:rgba(255,245,201,.97);box-shadow:0 4px 0 #6d4728;animation:hm-panel-in .8s .12s both,hm-panel-float 3.2s 1s ease-in-out infinite}
+.hm-token-stack{position:absolute;z-index:4;top:50%;left:50%;width:100%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.hm-panel-amount{position:relative;z-index:4;margin:0 auto;width:fit-content;min-width:210px;padding:4px 16px;border:3px solid #b47a3c;border-radius:16px;background:rgba(255,245,201,.97);box-shadow:0 4px 0 #6d4728;animation:hm-panel-in .8s .12s both}
 .hm-amount{color:#a94e2c;font-size:38px;font-weight:800;line-height:1;animation:hm-pop .7s .25s both,hm-pulse 2.8s 1.2s ease-in-out infinite}
 .hm-from{position:relative;z-index:4;margin:4px auto 0;color:#fff;background:rgba(48,27,10,.72);padding:1px 9px;border-radius:7px;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:1px;line-height:18px;text-shadow:0 1px 2px #000;animation:hm-label-in .7s .35s both}
 .hm-info{position:relative;z-index:4;margin:4px auto 0;width:100%;padding:0 20px;animation:hm-info-in .8s .25s both}
