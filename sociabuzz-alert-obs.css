@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap');
 .hm-card{box-sizing:border-box;position:relative;width:680px;max-width:100%;height:230px;margin:0 auto;overflow:hidden;border:5px solid #80552f;border-radius:24px;background:#f9e7ae;font-family:'Baloo 2',sans-serif;text-align:center;box-shadow:0 12px 30px rgba(48,27,10,.55);animation:hm-in .8s cubic-bezier(.2,.9,.3,1.15) both,hm-breathe 5s ease-in-out 1s infinite}
-.hm-bg{position:absolute;z-index:0;inset:0;width:100%;height:100%;object-fit:fill;filter:saturate(1.12) brightness(.52);animation:hm-zoom 18s ease-in-out infinite alternate}
+.hm-bg{position:absolute;z-index:0;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.12) brightness(.52);animation:hm-zoom 18s ease-in-out infinite alternate}
 .hm-veil{position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(39,24,12,.84),rgba(61,41,28,.3) 50%,rgba(39,24,12,.84));animation:hm-veil 7s ease-in-out infinite alternate}
 .hm-token-stack{position:absolute;z-index:4;top:50%;left:50%;width:100%;height:133px;transform:translate(-50%,-50%);text-align:center}
 .hm-panel-amount{position:absolute;z-index:4;top:0;left:50%;transform:translateX(-50%);width:fit-content;min-width:210px;padding:4px 16px;border:3px solid #b47a3c;border-radius:16px;background:rgba(255,245,201,.97);box-shadow:0 4px 0 #6d4728;animation:hm-panel-in .8s .12s both,hm-panel-float 3.2s 1s ease-in-out infinite}
