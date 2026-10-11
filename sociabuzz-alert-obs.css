@@ -3,14 +3,14 @@
 .hm-card{box-sizing:border-box;position:relative;width:680px;height:230px;margin:0 auto;overflow:hidden;border:5px solid #80552f;border-radius:24px;background:#f9e7ae;font-family:'Baloo 2',sans-serif;text-align:center;box-shadow:0 12px 30px rgba(48,27,10,.55);animation:hm-in .8s cubic-bezier(.2,.9,.3,1.15) both,hm-breathe 5s ease-in-out 1s infinite}
 .hm-bg{position:absolute;z-index:0;top:0;left:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.12) brightness(.52);animation:hm-zoom 18s ease-in-out infinite alternate}
 .hm-veil{position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(61,41,28,.85),transparent 50%,rgba(61,41,28,.85));animation:hm-veil 7s ease-in-out infinite alternate}
-.hm-panel-amount{position:absolute;z-index:4;top:20px;left:50%;transform:translateX(-50%);width:fit-content;min-width:180px;padding:4px 16px;border:3px solid #b47a3c;border-radius:18px;background:rgba(255,245,201,.96);box-shadow:0 3px 0 #6d4728;animation:hm-panel-in .8s .12s both,hm-panel-float 3.2s 1s ease-in-out infinite}
-.hm-amount{color:#a94e2c;font-size:34px;font-weight:800;line-height:1;animation:hm-pop .7s .25s both,hm-pulse 2.8s 1.2s ease-in-out infinite}
-.hm-from{position:absolute;z-index:4;top:74px;left:50%;transform:translateX(-50%);color:#fff;background:rgba(48,27,10,.6);padding:1px 8px;border-radius:6px;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1px;text-shadow:0 1px 2px #000}
-.hm-info{position:absolute;z-index:4;bottom:20px;width:100%;text-align:center;padding:0 20px;animation:hm-info-in .8s .25s both}
-.hm-who{color:#fff;font-size:30px;font-weight:800;text-shadow:0 2px 4px #000;margin-bottom:0;animation:hm-text-glow 3s ease-in-out infinite}
-.hm-msg{color:#f9e7ae;font-size:20px;font-weight:600;text-shadow:0 1px 2px #000;line-height:1}
-.hm-side{position:absolute;z-index:5;bottom:-10px;width:120px;height:130px;object-fit:contain;pointer-events:none;filter:drop-shadow(0 5px 5px rgba(47,28,12,.55));animation:hm-side 4.8s ease-in-out infinite}
-.hm-left{left:10px}.hm-right{right:10px;animation-delay:.45s}
+.hm-panel-amount{position:absolute;z-index:4;top:10px;left:50%;transform:translateX(-50%);width:fit-content;min-width:180px;padding:2px 12px;border:3px solid #b47a3c;border-radius:14px;background:rgba(255,245,201,.96);box-shadow:0 3px 0 #6d4728;animation:hm-panel-in .8s .12s both,hm-panel-float 3.2s 1s ease-in-out infinite}
+.hm-amount{color:#a94e2c;font-size:28px;font-weight:800;line-height:1;animation:hm-pop .7s .25s both,hm-pulse 2.8s 1.2s ease-in-out infinite}
+.hm-from{position:absolute;z-index:4;top:55px;left:50%;transform:translateX(-50%);color:#fff;background:rgba(48,27,10,.6);padding:0px 6px;border-radius:6px;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:1px;text-shadow:0 1px 2px #000}
+.hm-info{position:absolute;z-index:4;bottom:5px;width:100%;text-align:center;padding:0 20px;animation:hm-info-in .8s .25s both}
+.hm-who{color:#fff;font-size:24px;font-weight:800;text-shadow:0 2px 4px #000;margin-bottom:-4px;animation:hm-text-glow 3s ease-in-out infinite}
+.hm-msg{color:#f9e7ae;font-size:16px;font-weight:600;text-shadow:0 1px 2px #000;line-height:1}
+.hm-side{position:absolute;z-index:5;bottom:-10px;width:100px;height:110px;object-fit:contain;pointer-events:none;filter:drop-shadow(0 5px 5px rgba(47,28,12,.55));animation:hm-side 4.8s ease-in-out infinite}
+.hm-left{left:5px}.hm-right{right:5px;animation-delay:.45s}
 @keyframes hm-in{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)}}
 @keyframes hm-breathe{0%,100%{box-shadow:0 12px 30px rgba(48,27,10,.55)}50%{box-shadow:0 16px 38px rgba(48,27,10,.7),0 0 24px rgba(255,218,111,.6)}}
 @keyframes hm-zoom{0%{transform:scale(1)}100%{transform:scale(1.18)}}
