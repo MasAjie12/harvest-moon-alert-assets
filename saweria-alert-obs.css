@@ -22,7 +22,7 @@
 @keyframes hm-panel-float{0%,100%{margin-top:0}50%{margin-top:-4px}}
 @keyframes hm-pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
 @keyframes hm-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
-@keyframes hm-label-in{from{opacity:0;transform:translateX(-50%) translateY(-8px)}to{opacity:1;transform:translateX(-50%) translateY(0)}}
+@keyframes hm-label-in{from{opacity:0;transform:translateY(-8px)}to{opacity:1;transform:translateY(0)}}
 @keyframes hm-info-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 @keyframes hm-text-glow{0%,100%{text-shadow:0 2px 4px #000}50%{text-shadow:0 2px 8px #000,0 0 12px rgba(255,228,155,.75)}}
 @keyframes hm-side{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-9px) rotate(3deg)}}
