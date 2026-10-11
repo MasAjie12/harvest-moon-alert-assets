@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&display=swap');
 .hm-card{box-sizing:border-box;position:relative;width:680px;max-width:100%;height:230px;margin:0 auto;overflow:hidden;border:5px solid #80552f;border-radius:24px;background:#f9e7ae;font-family:'Baloo 2',sans-serif;text-align:center;box-shadow:0 12px 30px rgba(48,27,10,.55);animation:hm-in .8s cubic-bezier(.2,.9,.3,1.15) both,hm-breathe 5s ease-in-out 1s infinite}
-.hm-bg{position:absolute;z-index:0;inset:0;width:100%;height:100%;object-fit:cover;filter:saturate(1.12) brightness(.52);animation:hm-zoom 18s ease-in-out infinite alternate}
-.hm-veil{position:absolute;z-index:1;inset:0;background:linear-gradient(90deg,rgba(39,24,12,.84),rgba(61,41,28,.3) 50%,rgba(39,24,12,.84));animation:hm-veil 7s ease-in-out infinite alternate}
-.hm-token-stack{position:absolute;z-index:4;top:115px;left:50%;width:100%;transform:translateX(-50%);text-align:center}
-.hm-panel-amount{position:relative;z-index:4;margin:0 auto;width:fit-content;min-width:210px;padding:4px 16px;border:3px solid #b47a3c;border-radius:16px;background:rgba(255,245,201,.97);box-shadow:0 4px 0 #6d4728;animation:hm-panel-in .8s .12s both,hm-panel-float 3.2s 1s ease-in-out infinite}
+.hm-bg{position:absolute;z-index:0;top:0;left:0;width:100%;height:100%;object-fit:fill;object-position:center;filter:saturate(1.12) brightness(.52);animation:hm-zoom 18s ease-in-out infinite alternate}
+.hm-veil{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,rgba(39,24,12,.84),rgba(61,41,28,.3) 50%,rgba(39,24,12,.84));animation:hm-veil 7s ease-in-out infinite alternate}
+.hm-token-stack{position:absolute;z-index:4;top:50%;left:50%;width:100%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px}
+.hm-panel-amount{position:relative;z-index:4;width:fit-content;min-width:210px;padding:4px 16px;border:3px solid #b47a3c;border-radius:16px;background:rgba(255,245,201,.97);box-shadow:0 4px 0 #6d4728;animation:hm-panel-in .8s .12s both}
 .hm-amount{color:#a94e2c;font-size:38px;font-weight:800;line-height:1;animation:hm-pop .7s .25s both,hm-pulse 2.8s 1.2s ease-in-out infinite}
-.hm-from{position:relative;z-index:4;margin:4px auto 0;color:#fff;background:rgba(48,27,10,.72);padding:1px 9px;border-radius:7px;font-size:14px;font-weight:700;text-transform:uppercase;letter-spacing:1px;line-height:18px;text-shadow:0 1px 2px #000;animation:hm-label-in .7s .35s both}
-.hm-info{position:relative;z-index:4;margin:4px auto 0;width:100%;padding:0 20px;animation:hm-info-in .8s .25s both}
+.hm-from{position:relative;z-index:4;align-self:center;max-width:calc(100% - 40px);color:#fff;background:rgba(48,27,10,.72);padding:1px 9px;border-radius:7px;font-size:14px;font-weight:700;text-align:center;text-transform:uppercase;letter-spacing:1px;line-height:18px;text-shadow:0 1px 2px #000;animation:hm-label-in .7s .35s both}
+.hm-info{position:relative;z-index:4;width:100%;padding:0 20px;animation:hm-info-in .8s .25s both}
 .hm-who{color:#fff;font-size:34px;font-weight:800;line-height:34px;text-shadow:0 2px 4px #000;margin:0;animation:hm-text-glow 3s ease-in-out infinite}
 .hm-msg{color:#f9e7ae;font-size:23px;font-weight:600;line-height:24px;text-shadow:0 1px 2px #000;margin:0}
 .hm-side{position:absolute;z-index:3;bottom:-18px;width:160px;height:175px;object-fit:contain;pointer-events:none;filter:drop-shadow(0 5px 5px rgba(47,28,12,.55));animation:hm-side 4.8s ease-in-out infinite}
 .hm-left{left:-5px}.hm-right{right:-5px;animation-delay:.45s}
-.hm-sun{position:absolute;z-index:2;top:12px;right:238px;width:38px;height:38px;border-radius:50%;background:radial-gradient(circle,#fff1a8 0 28%,#f0b83d 30% 62%,rgba(240,184,61,0) 64%);filter:drop-shadow(0 0 8px #ffd86a);animation:hm-sun 5s ease-in-out infinite}
 .hm-star{position:absolute;z-index:2;color:#ffe49b;font-family:Georgia,serif;font-size:25px;line-height:1;text-shadow:0 0 8px #ffd86a;animation:hm-twinkle 2.8s ease-in-out infinite}
 .hm-star-one{left:150px;top:22px}.hm-star-two{right:150px;top:28px;font-size:18px;animation-delay:.8s}.hm-star-three{left:205px;bottom:20px;font-size:16px;animation-delay:1.4s}.hm-star-four{right:205px;bottom:22px;font-size:22px;animation-delay:1.9s}
 .hm-leaf{position:absolute;z-index:2;color:#a8d35a;font-size:30px;line-height:1;text-shadow:0 2px 4px #233d16;animation:hm-leaf 4s ease-in-out infinite}.hm-leaf-left{left:112px;bottom:12px}.hm-leaf-right{right:112px;bottom:12px;animation-delay:.7s}
@@ -19,7 +18,7 @@
 @keyframes hm-breathe{0%,100%{box-shadow:0 12px 30px rgba(48,27,10,.55)}50%{box-shadow:0 16px 38px rgba(48,27,10,.7),0 0 24px rgba(255,218,111,.6)}}
 @keyframes hm-zoom{0%{transform:scale(1)}100%{transform:scale(1.12)}}
 @keyframes hm-veil{0%{opacity:.82}100%{opacity:1}}
-@keyframes hm-panel-in{from{opacity:0;transform:translateX(-50%) scale(.82)}to{opacity:1;transform:translateX(-50%) scale(1)}}
+@keyframes hm-panel-in{from{opacity:0;transform:scale(.82)}to{opacity:1;transform:scale(1)}}
 @keyframes hm-panel-float{0%,100%{margin-top:0}50%{margin-top:-4px}}
 @keyframes hm-pop{from{opacity:0;transform:scale(.6)}to{opacity:1;transform:scale(1)}}
 @keyframes hm-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
@@ -27,8 +26,5 @@
 @keyframes hm-info-in{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
 @keyframes hm-text-glow{0%,100%{text-shadow:0 2px 4px #000}50%{text-shadow:0 2px 8px #000,0 0 12px rgba(255,228,155,.75)}}
 @keyframes hm-side{0%,100%{transform:translateY(0) rotate(-3deg)}50%{transform:translateY(-9px) rotate(3deg)}}
-@keyframes hm-sun{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(1.12) rotate(12deg)}}
 @keyframes hm-twinkle{0%,100%{opacity:.35;transform:scale(.8) rotate(0)}50%{opacity:1;transform:scale(1.25) rotate(18deg)}}
 @keyframes hm-leaf{0%,100%{transform:rotate(-8deg) translateY(0)}50%{transform:rotate(8deg) translateY(-6px)}}
-
-.hm-stack-inner{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:100%}
