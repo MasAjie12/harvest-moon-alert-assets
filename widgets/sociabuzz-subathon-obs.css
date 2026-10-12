@@ -6,7 +6,7 @@
 .subathon-container .sub_timer{position:relative!important}
 .subathon-container .sub_timer::before,.subathon-container .sub_timer::after{
   content:""!important;position:absolute!important;top:50%!important;width:3em!important;height:3em!important;
-  background:url("https://raw.githubusercontent.com/MasAjie12/harvest-moon-alert-assets/main/nailong-clean.png") center/contain no-repeat!important;
+  background:url("https://raw.githubusercontent.com/MasAjie12/harvest-moon-alert-assets/main/baru.png") center/contain no-repeat!important;
   pointer-events:none!important;z-index:6!important;filter:drop-shadow(0 3px 8px rgba(0,0,0,.6)) saturate(1.08);
 }
 .subathon-container .sub_timer::before{left:-3.2em!important;transform:translateY(-50%)!important;animation:hm-wchar-l .5s cubic-bezier(.2,.9,.25,1.14) .25s both,hm-wbob 3.2s ease-in-out infinite alternate!important}
@@ -31,7 +31,7 @@ body{background:transparent!important;margin:0!important;overflow:hidden!importa
   overflow:hidden!important;
   border:1px solid #a94e2c!important;
   border-radius:12px!important;
-  background-image:linear-gradient(rgba(90,58,30,.25),rgba(44,26,14,.45)),url("https://raw.githubusercontent.com/MasAjie12/harvest-moon-alert-assets/main/nailong-clean.png"),radial-gradient(ellipse at 12% 18%,rgba(180,122,60,.34) 0 7px,transparent 8px),radial-gradient(ellipse at 78% 28%,rgba(212,105,30,.28) 0 5px,transparent 6px),radial-gradient(ellipse at 26% 82%,rgba(44,26,14,.22) 0 6px,transparent 7px),linear-gradient(135deg,#5a3a1e,#1f1208)!important;
+  background-image:linear-gradient(rgba(90,58,30,.25),rgba(44,26,14,.45)),url("https://raw.githubusercontent.com/MasAjie12/harvest-moon-alert-assets/main/baru.png"),radial-gradient(ellipse at 12% 18%,rgba(180,122,60,.34) 0 7px,transparent 8px),radial-gradient(ellipse at 78% 28%,rgba(212,105,30,.28) 0 5px,transparent 6px),radial-gradient(ellipse at 26% 82%,rgba(44,26,14,.22) 0 6px,transparent 7px),linear-gradient(135deg,#5a3a1e,#1f1208)!important;
   color:#f9e7ae!important;
   box-shadow:0 0 25px rgba(180,122,60,.34),inset 0 0 22px rgba(180,122,60,.34)!important;
   animation:hm-sub-in .6s cubic-bezier(.2,.9,.3,1.15) forwards,hm-sub-drift 13s ease-in-out infinite alternate,hm-sub-glow 3.4s ease-in-out infinite!important;

@@ -3,7 +3,7 @@
 .card .card-header,.subathon-container .sub_judul{position:relative!important;padding-left:3.9em!important;padding-right:3.9em!important}
 .card .card-header::before,.card .card-header::after,.subathon-container .sub_judul::before,.subathon-container .sub_judul::after{
   content:""!important;position:absolute!important;top:50%!important;width:3.4em!important;height:3.4em!important;
-  background:url("https://raw.githubusercontent.com/MasAjie12/harvest-moon-alert-assets/main/nailong-clean.png") center/contain no-repeat!important;
+  background:url("https://raw.githubusercontent.com/MasAjie12/harvest-moon-alert-assets/main/baru.png") center/contain no-repeat!important;
   pointer-events:none!important;z-index:6!important;filter:drop-shadow(0 3px 8px rgba(0,0,0,.6)) saturate(1.08);
 }
 .card .card-header::before,.subathon-container .sub_judul::before{left:.35em!important;transform:translateY(-50%)!important;animation:hm-wchar-l .5s cubic-bezier(.2,.9,.25,1.14) .25s both,hm-wbob 3.2s ease-in-out infinite alternate!important}
